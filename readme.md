@@ -4,8 +4,9 @@
 
 ![main_figure](asset/first_figure.png)
 
-> [Hyunwook Jo](https://github.com/ugiugi0823/), &nbsp; [Jiseung Maeng](https://github.com/js43o/), &nbsp; [Junhyung Park](https://github.com/kevin20012), &nbsp; [Namhyuk Ahn](https://gcl-inha.github.io/), &nbsp; [In Kyu Park\*](https://sites.google.com/view/vcl-lab/) &nbsp; </br>
-> Department of Electrical and Computer Engineering, Inha University </br> \*Corresponding Author
+[Hyunwook Jo](https://github.com/ugiugi0823/), &nbsp; [Jiseung Maeng](https://github.com/js43o/), &nbsp; [Junhyung Park](https://github.com/kevin20012), &nbsp; [Namhyuk Ahn](https://gcl-inha.github.io/), &nbsp; [In Kyu Park](https://sites.google.com/view/vcl-lab/)\* &nbsp; </br>
+Department of Electrical and Computer Engineering, Inha University</br>
+\*Corresponding Author
 
 <p>
   <a href="https://arxiv.org/">Arxiv</a> |
