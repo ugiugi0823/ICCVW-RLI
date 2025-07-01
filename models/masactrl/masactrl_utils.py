@@ -34,18 +34,7 @@ class AttentionBase:
             self.after_step()
         return out
 
-    def forward(
-        self,
-        q,
-        k,
-        v,
-        sim,
-        attn,
-        is_cross,
-        place_in_unet,
-        num_heads,
-        **kwargs
-    ):
+    def forward(self, q, k, v, sim, attn, is_cross, place_in_unet, num_heads, **kwargs):
         out = torch.einsum("b i j, b j d -> b i d", attn, v)
         out = rearrange(out, "(b h) n d -> b n (h d)", h=num_heads)
 
@@ -154,9 +143,7 @@ def register_attention_editor_diffusers(model, editor: AttentionBase, alpha=None
 
             if alpha is not None and not is_cross and place_in_unet == "up":
                 if self.to_q.in_features == 1280 or self.to_q.in_features == 320:
-                    # print("🌊 RLI 적용 (alpha=%.2f)" % alpha)
-                    out = (1 - alpha) * out + residual* (alpha)
-
+                    out = (1 - alpha) * out + residual * (alpha)
 
             return to_out(out)
 
