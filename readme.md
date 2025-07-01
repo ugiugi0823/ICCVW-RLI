@@ -1,8 +1,8 @@
 <div align="center">
 
-# Diffusion-Based Robust Image Editing using Residual Linear Interpolation
+# A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models
 
-![main_figure](asset/first_figure.png)
+![main_figure](asset/first_figure.jpg)
 
 [Hyunwook Jo](https://github.com/ugiugi0823/), &nbsp; [Jiseung Maeng](https://github.com/js43o/), &nbsp; [Junhyung Park](https://github.com/kevin20012), &nbsp; [Namhyuk Ahn](https://gcl-inha.github.io/), &nbsp; [In Kyu Park](https://sites.google.com/view/vcl-lab/)\* &nbsp; </br>
 Department of Electrical and Computer Engineering, Inha University</br>
