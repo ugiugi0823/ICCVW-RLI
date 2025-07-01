@@ -40,6 +40,12 @@ conda env create --file env/masactrl.yaml
 conda env create --file env/pnp.yaml
 ```
 
+**(+) For null-text inversion with SDXL**
+
+```bash
+conda env create --file env/nullsdxl.yaml
+```
+
 ## 🚀 Run
 
 ### 🔥 Run Bench described in paper
@@ -92,8 +98,18 @@ bash run_one_img.sh
 
 And Finally, You can find the result in **output** directory.
 
+- (+) If you want to use **null-text inversion** with the **SDXL** model, please refer to the `/null-sdxl` folder. It contains the source code, and you can modify the prompts, input image, ALPHA value, etc., and run the code.
+
+  ```
+  bash run.sh
+  ```
+
 ## Acknowledgement
 
-This code has been modified based on the [PnP_Inversion](https://github.com/cure-lab/PnPInversion/tree/main).  
-Following the implementation from [null-text inversion](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images), [negative-prompt inversion](https://arxiv.org/abs/2305.16807), [Direct inversion](https://arxiv.org/abs/2310.01506), [prompt-to-prompt](https://github.com/google/prompt-to-prompt), [MasaCtrl](https://github.com/TencentARC/MasaCtrl), [pix2pix-zero](https://github.com/pix2pixzero/pix2pix-zero) , [Plug-and-Play](https://github.com/MichalGeyer/plug-and-play).  
+This code has been modified based on the [PnP_Inversion](https://github.com/cure-lab/PnPInversion/tree/main).
+Following the implementation from [null-text inversion](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images), [negative-prompt inversion](https://arxiv.org/abs/2305.16807), [Direct inversion](https://arxiv.org/abs/2310.01506), [prompt-to-prompt](https://github.com/google/prompt-to-prompt), [MasaCtrl](https://github.com/TencentARC/MasaCtrl), [pix2pix-zero](https://github.com/pix2pixzero/pix2pix-zero) , [Plug-and-Play](https://github.com/MichalGeyer/plug-and-play).
 Sincerely thank all contributors.
+
+```
+
+```
