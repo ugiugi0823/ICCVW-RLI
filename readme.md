@@ -11,11 +11,6 @@ Department of Electrical and Computer Engineering, Inha University</br>
 
 </div>
 
-## ⚙️ Proposed Method
-
-![main_figure](asset/framework.png)
-This project is Demo for "Diffusion-Based Robust Image Editing using Residual Linear Interpolation" submitted to ACM MM
-
 ## 🌱 Environment Setting
 
 **For Prompt-to-Prompt**
